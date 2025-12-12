@@ -308,8 +308,8 @@ padding: 20px 20px;
 }
 
 .carousel img {
-    object-fit:cover;
-    height:90%;
+    object-fit:contain;
+    height:70%;
 }
 
 .carousel-item img{
@@ -319,15 +319,16 @@ padding: 20px 20px;
 }
 
 .carousel-item{
+    background-image: url("/static/images/obsidian_blur.gif");
 
-    height:80vh;
+    height:55vh;
 }
 
 .card-body {
-    background-color: transparen !important;
+    background-color: transparent !important;
 }
 .card {
-    background-color: transparen !important;
+    background-color: transparent !important;
 }
 .card-hover {
     transition: transform 0.3s ease;

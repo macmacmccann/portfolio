@@ -279,7 +279,7 @@ border-radius: 10px;
  text-align: center;
 border-radius: 10px;
     margin:60px;
-     border:10px solid rgb(68, 200, 240);
+     border:10px solid rgb(55, 102, 117);
      font-weight: bold;
      padding: 30px 30px;
 
@@ -320,7 +320,7 @@ padding: 20px 20px;
 
 .carousel-item{
 
-    height:80vh;
+    height:60vh;
 }
 
 .card-body {
