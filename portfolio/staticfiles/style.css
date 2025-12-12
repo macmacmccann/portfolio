@@ -1,0 +1,338 @@
+
+
+html {
+  scroll-behavior: smooth;
+  width:100% !important;
+}
+
+* {
+    text-transform: uppercase !important;
+      font-family: "Work Sans",monospace;
+      font-weight: bold;
+
+}
+html,body  {
+  width:100% !important;
+}
+
+body{
+
+      background-image: url("/static/images/back.gif");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    letter-spacing: 3px;
+      text-transform: capitalize;
+      width:100%;
+    
+  
+}
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+       opacity: 0 ;
+    animation: fadeIn 2s ease-out forwards;
+}
+
+h4 {
+    padding-bottom: 10px;
+       opacity: 0 ;
+    animation: fadeIn 2s ease-out forwards;
+    background-color: rgba(98, 96, 232, 0);
+    border-radius: 5px;
+    padding: 20px 20px;
+    border:1px dotted rgba(102, 51, 153, 0);
+    color:aliceblue;
+backdrop-filter: blur(30px);
+
+}
+
+
+.blur {
+backdrop-filter: blur(30px);
+background-color: rgba(158, 229, 235, 0.623);
+
+     }
+.blurisolate {
+backdrop-filter: blur(10px);
+
+     }
+
+
+.banner{
+    top:10%;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+
+}
+.bodys{
+    
+  margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+    justify-content: center;
+    background-image: url("/static/images/1.gif");
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.scrollcontainer {
+
+    height: 80vh;
+    overflow-y:scroll;
+    scroll-snap-type:y mandatory;
+      &::-webkit-scrollbar {
+        display: none;
+    
+     scrollbar-width: none; 
+
+    -ms-overflow-style: none;  
+      }
+
+          text-align: center;
+
+}
+
+div {
+    font-weight: bold;
+}
+.page1{
+    height:80vh;
+    scroll-snap-align: start;
+    background-color: rgba(0, 0, 0, 0.685);
+
+
+}
+.page2{
+    height:80vh;
+    scroll-snap-align: start;
+    background-color: rgba(176, 98, 240, 0.322);
+    background-image: url("/static/images/django.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page3{
+    height:80vh;
+    scroll-snap-align: start;
+    background-color: rgba(235, 158, 235, 0.267);
+
+
+
+}
+.pagecontact{
+    height:80vh;
+    scroll-snap-align: start;
+    background-color: rgba(245, 247, 177, 0.692);
+    
+
+}
+.page4{
+    height:80vh;
+    scroll-snap-align: start;
+    background-color: rgba(158, 235, 162, 0.137);
+
+}
+.page5{
+    height:80vh;
+    scroll-snap-align: start;
+    background-color: rgba(158, 235, 162, 0.137);
+
+}
+.page6{
+    height:80vh;
+    scroll-snap-align: start;
+    background-color: rgba(158, 235, 162, 0.137);
+
+}
+
+.icon_section{
+ backdrop-filter: blur(10px);
+
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-left: -5%;
+    background-color: rgba(137, 43, 226, 0.411); 
+    background-image: url("/static/images/cityblur2.gif");
+    backdrop-filter: blur(20px);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+       opacity: 0 ;
+    animation: fadeIn 3s ease-out forwards;
+}
+
+.snapshot {
+        position: relative;
+
+    width: 100px;
+    height:100px;
+    border-radius: 20px;
+}
+.snapshot:hover {
+    transform:scale(5);
+    z-index: 9999;
+    margin-bottom : 10%;
+
+
+}
+
+.icon {
+    width: 200px;
+    height:200px;
+    margin-left: 85px;
+    border-radius: 20px;
+}
+
+.icon:hover {
+    transform:scale(2.8);
+    z-index: 9999;
+
+}
+
+.whitebreak{
+    height:20px;
+    background-color: rgba(242, 243, 175, 0.705);
+    filter:blur(5px);
+
+}
+
+.titlesection {
+    background-color: rgba(241, 131, 57, 0.144);
+    padding-left:5vh;
+    padding-right: 20%;
+    backdrop-filter:blur(10px);
+    border-radius: 10px;
+}
+.title{
+    color: aliceblue;
+    margin-right: 200px;
+
+}
+
+.midshift{
+    background-color: rgba(249, 252, 82, 0.021);
+    height:10vh;
+    filter: blur(20px);
+
+    
+}
+
+.titlepop {
+    background-color: rgba(255, 255, 240, 0.253);
+    height:10px;
+    padding: 4%;
+    margin-top: -60px;
+    background-image: url("/static/images/obsidian_blur_dark.gif");
+    background-repeat: repeat;
+    background-position: right bottom;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 10px 20px;
+    padding-top:10px;
+    backdrop-filter:blur(1px);
+    padding:10px;
+    border-radius: 10px;
+      opacity: 0 ;
+    animation: fadeIn 3s ease-out forwards;
+    text-align: center;
+    border:10px solid rgb(87, 80, 222);
+    margin:20px;
+        background-image: url("/static/images/obsidian_blur.gif");
+
+
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.boxwithimage{
+    background-image: url("/static/images/obsidian_blur.gif");
+ text-align: center;
+border-radius: 10px;
+    margin:60px;
+     border:10px solid rgb(68, 200, 240);
+     font-weight: bold;
+     padding: 30px 30px;
+    display:flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.box{
+    background-image: url("/static/images/obsidian_blur.gif");
+ text-align: center;
+border-radius: 10px;
+    margin:60px;
+     border:10px solid rgb(68, 200, 240);
+     font-weight: bold;
+     padding: 30px 30px;
+
+}
+
+.minortitle {
+     text-align: center;
+     border-radius: 10px;
+     margin:60px;
+     border:10px solid rgb(68, 200, 240);
+     font-weight: bold;
+     padding: 30px 30px;
+}
+
+
+.joined {
+
+    background-image: url("/static/images/obsidian_blur_dark.gif");
+padding: 20px 20px;
+}
+
+.white{
+    color:white;
+    list-style-type: none;
+    
+}
+
+.carousel img {
+    object-fit:cover;
+    height:90%;
+}
+
+.carousel-item img{
+ 
+    display:block;
+    margin: 0 auto; 
+}
+
+.carousel-item{
+
+    height:80vh;
+}
+
+.card-body {
+    background-color: transparen !important;
+}
+.card {
+    background-color: transparen !important;
+}
+.card-hover {
+    transition: transform 0.3s ease;
+}
+
+.card-hover:hover {
+    transform:scale(1.05);
+}
